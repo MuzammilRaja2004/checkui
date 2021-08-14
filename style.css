@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.main-container{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: green;
+    text-align: center;
+    padding: 1rem;
+}
+.todo-head{
+    color: #2c3e50;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+#main-input{
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+.btens{
+    padding: 0.5rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+li{
+    width: 100%;
+    list-style: none;
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
